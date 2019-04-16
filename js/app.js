@@ -1,6 +1,15 @@
 
+var url = window.location.href;
+var swLocation = '/twittor/sw.js';
+
+
 if( navigator.serviceWorker){
-    navigator.serviceWorker.register('/cursopwaadvance/06-twittor/sw.js');
+
+    if( url.includes('localhost')){
+        swLocation = '/cursopwaadvance/06-twittor/sw.js';
+    }
+
+    navigator.serviceWorker.register( swLocation);
 }
 
 

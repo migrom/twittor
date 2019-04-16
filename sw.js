@@ -5,18 +5,23 @@ const STATIC_CACHE = 'static-v1';
 const DYNAMIC_CACHE = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
+//    const path = '/cursopwaadvance/06-twittor/sw.js';
+
+    const path = '';
+
+
 const APP_SHELL = [
-    '/cursopwaadvance/06-twittor/',
-    '/cursopwaadvance/06-twittor/index.html',
-    '/cursopwaadvance/06-twittor/css/style.css',
-    '/cursopwaadvance/06-twittor/img/favicon.ico',
-    '/cursopwaadvance/06-twittor/img/avatars/hulk.jpg',
-    '/cursopwaadvance/06-twittor/img/avatars/ironman.jpg',
-    '/cursopwaadvance/06-twittor/img/avatars/spiderman.jpg',
-    '/cursopwaadvance/06-twittor/img/avatars/thor.jpg',
-    '/cursopwaadvance/06-twittor/img/avatars/wolverine.jpg',
-    '/cursopwaadvance/06-twittor/js/app.js',
-    '/cursopwaadvance/06-twittor/js/sw-utils.js'
+    path,
+    path + 'index.html',
+    path + 'css/style.css',
+    path + 'img/favicon.ico',
+    path + 'img/avatars/hulk.jpg',
+    path + 'img/avatars/ironman.jpg',
+    path + 'img/avatars/spiderman.jpg',
+    path + 'img/avatars/thor.jpg',
+    path + 'img/avatars/wolverine.jpg',
+    path + 'js/app.js',
+    path + 'js/sw-utils.js'
 ];
 
 
@@ -25,8 +30,8 @@ const APP_SHELL_INMUTABLE = [
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
     'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
-    '/cursopwaadvance/06-twittor/css/animate.css',
-    '/cursopwaadvance/06-twittor/js/libs/jquery.js'
+    path + 'css/animate.css',
+    path + 'js/libs/jquery.js'
 ];
 
 const APP_SHELL_DINAMIC = [
