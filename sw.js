@@ -21,7 +21,8 @@ const APP_SHELL = [
     path + 'img/avatars/thor.jpg',
     path + 'img/avatars/wolverine.jpg',
     path + 'js/app.js',
-    path + 'js/sw-utils.js'
+    path + 'js/sw-utils.js',
+    path + 'manifest.json'
 ];
 
 
